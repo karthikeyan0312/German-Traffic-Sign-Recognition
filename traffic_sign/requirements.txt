@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+opencv-python-headless
+numpy==1.19.2
+Pillow
+validators
+requests
