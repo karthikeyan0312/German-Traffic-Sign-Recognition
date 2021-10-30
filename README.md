@@ -1,7 +1,8 @@
 # German-Traffic-Sign-Recognition
 
 Recognize Traffic signs using ML. 
-Created using streamlit,Docker and Deployed with AWS Elastic Beanstalk
+Created using streamlit & Docker.
+Deployed with AWS Elastic Beanstalk
 
 Link to access my app
 
