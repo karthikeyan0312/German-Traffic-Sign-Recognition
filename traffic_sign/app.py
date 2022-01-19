@@ -6,7 +6,7 @@ from PIL import Image
 import validators,requests,urllib
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load():
-    path=r"/app/model/gtsrb_model"
+    path=r"/app/german-traffic-sign-recognition/traffic_sign/model/gtsrb_model"
     return models.load_model(path)
     
 
