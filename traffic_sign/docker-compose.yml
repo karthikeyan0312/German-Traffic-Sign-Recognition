@@ -1,11 +1,17 @@
 version: '3.8'
 
 services:
-  streamlit-app:
+  api:
     build: .
+    container_name: my-python-app
     ports:
-      - "8501:8501"
-    volumes:
-      - .:/app
+      - "0.0.0.0:8501:8501"
+    restart: always
     environment:
       - PYTHONUNBUFFERED=1
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
